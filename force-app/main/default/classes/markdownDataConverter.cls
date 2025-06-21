@@ -1,7 +1,7 @@
 public with sharing class markdownDataConverter {
     @AuraEnabled(cacheable=false)
     public static string markdownHtml(string markdownContent){
-        string gitHubToken = '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';
+        string gitHubToken = 'your_github_token'; // Replace with your GitHub token
         Http http = new Http();
         HttpRequest request = new HttpRequest();
         request.setEndpoint('https://api.github.com/markdown');

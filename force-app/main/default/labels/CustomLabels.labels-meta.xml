@@ -1622,6 +1622,6 @@ Technical Considerations: Note dependencies, integration requirements, or other 
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>gitHubToken</shortDescription>
-        <value>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</value>
+        <value>gitHubToken</value>
     </labels>
 </CustomLabels>

@@ -4,7 +4,7 @@
     <protected>false</protected>
     <values>
         <field>Access_token__c</field>
-        <value xsi:type="xsd:string">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</value>
+        <value xsi:type="xsd:string">Access Token Value</value>
     </values>
     <values>
         <field>URL__c</field>

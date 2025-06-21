@@ -1,8 +1,8 @@
 public class AgainSendAccountUsingRestApi {
-    String clientId ='3MVG9AzPSkglhtpt3l4KpvaFQR3RZJIE0E3AAt2yY59JHfNCcxBLLgaCnfl4WrtYVkJfVi.W6ZBeKK_ZVpblz'; 
-    String clientsecret='A139B68368997057DA0DAD78191273184E706FEB1AAF80BF2B249C1B22EAAA88'; 
+    String clientId ='ClientId'; // Replace with your Salesforce Connected App Client ID
+    String clientsecret='clientSecret'; // Replace with your Salesforce Connected App Client Secret
     string username='schikkanna@guidewire.com.sharathv3'; 
-    String password='Welcome2020'; 
+    String password='password1234'; // Replace with your Salesforce username and password
     String accesstoken_url='https://test.salesforce.com/services/oauth2/token';
     String authurl='https://test.salesforce.com/services/oauth2/authorize';
       
