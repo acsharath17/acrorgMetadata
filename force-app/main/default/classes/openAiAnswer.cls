@@ -107,7 +107,7 @@ public with sharing class openAiAnswer implements Queueable, Database.AllowsCall
     }
 
     private static void markdownHtml(string markdownContent){
-        string gitHubToken = 'your_github_token'; // Replace with your GitHub token
+        
         Http http = new Http();
         HttpRequest request = new HttpRequest();
         request.setEndpoint('https://api.github.com/markdown');
